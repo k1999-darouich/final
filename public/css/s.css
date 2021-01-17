@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+.landing {
+    min-height: 100vh;
+
+    background-size: cover;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+}
+#logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.big-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: "Lobster", cursive;
+    color: rgb(61, 61, 61);
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+    font-size: 30rem;
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.jumbotron h1{
+    color: #E0DBDA                      ;
+}
+.card{
+
+}
+
+.typing{
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-kerning: none;
+}
+.sign {
+    font-family: Hack, monospace;
+    cursor: pointer;
+    border: 2px solid #E0DBDA;
+    color: #E0DBDA;
+    border-radius: 1.5rem;
+    transition: all 0.5s;
+}
+.login-button{
+    color: #E0DBDA;
+
+}
+.login-button:hover{
+    color: #829fb0;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.info .icon.icon-circle {
+    max-width: 80px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 9px 35px -6px rgba(0,0,0,0.3);
+    box-shadow: 0px 9px 35px -6px rgba(0,0,0,0.3);
+    font-size: 2em;
+    background-color: #fff;
+    position: relative;
+}
+.icon-primary {
+    color: #f96332;
+}
+.icon.icon-warning{
+    color: blue;
+}.icon.icon-info {
+     color: #2CA8FF;
+ }
+.icon.icon-warning {
+    color: #FFB236;
+}
+.icon.icon-success {
+    color: #18ce0f;
+}
+.icon.icon-danger {
+    color: #FF3636;
+
+}
+.info {
+    max-width: 360px;
+    margin-top: 70px;
+    padding: 70px 0 30px;
+    text-align: center;
+
+}
+
+.icon.icon-primary.icon-circle {
+    -webkit-box-shadow: 0px 9px 30px -6px rgba(249,99,50,0.3);
+    box-shadow: 0px 9px 30px -6px rgba(249,99,50,0.3);
+}
+.info .icon {
+
+    -webkit-transition: -webkit-transform .4s, -webkit-box-shadow .4s;
+    transition: -webkit-transform .4s, -webkit-box-shadow .4s;
+    transition: transform .4s, box-shadow .4s;
+}
+.icon.icon-info.icon-circle {
+    -webkit-box-shadow: 0px 9px 30px -6px rgba(44,168,255,0.3);
+    box-shadow: 0px 9px 30px -6px rgba(44,168,255,0.3);
+}
+.icon.icon-warning.icon-circle {
+    -webkit-box-shadow: 0px 9px 30px -6px rgba(255,178,54,0.3);
+    box-shadow: 0px 9px 30px -6px rgba(255,178,54,0.3);
+}
+.icon.icon-danger.icon-circle {
+    -webkit-box-shadow: 0px 9px 30px -6px rgba(255,54,54,0.3);
+    box-shadow: 0px 9px 30px -6px rgba(255,54,54,0.3);
+}
+.icon.icon-success.icon-circle {
+    -webkit-box-shadow: 0px 9px 30px -6px rgba(24,206,15,0.3);
+    box-shadow: 0px 9px 30px -6px rgba(24,206,15,0.3);
+}
+.text-center h5{
+    padding-top: 20px;
+}
+.slider {
+    background: dodgerblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    z-index: 30;
+
+}
+.s3{
+   color:white;
+}
+.images {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    vertical-align:bottom;
+    width:200px;
+}
+#content {
+    border: #555 1px solid;
+    margin-right: 10px;
+
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: table-cell;          /* <-- problem */
+    vertical-align: middle;
+}
+
+.s-comment img{
+
+    width:75%;
+   height: 65%;
+}
+@media(max-device-width:576px){
+    .s-comment img{
+
+        width:55%;
+        height: 18vh;
+    }
+
+}
